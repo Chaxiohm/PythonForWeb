@@ -1,0 +1,161 @@
+/* CSS Document */
+@charset "utf-8";
+body {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+}
+.photo{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    float: none;
+    background: none;
+}
+.photo > img{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.side-bar {
+    height: 1448px;
+    color: white;
+    width: 70mm;
+    position: relative;
+    background-color: #054276;
+}
+.side-barWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: top;
+}
+.header {
+    background-color: #04365f;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 0px 5px 5px;
+    margin: 10px 0px;
+}
+.entery{
+    margin: 2px 0px 2px 5px;
+}
+.entery > p{
+    text-align: right;
+    font-size: 8pt;
+    margin: 0px 5px 0px 0px;
+}
+.bold{
+    font-weight: bold;
+}
+.levels {
+    float: right;
+    position: relative;
+    margin: 0px 5px 0px 0px;
+}
+.level0{
+    margin: 0px 2px;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #41739f;
+    display: inline-block;
+}
+.level1{
+    margin: 0px 2px;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    display: inline-block;
+}
+.progress{
+    height: 6px;
+    width: 98%;
+    background: #41739f;
+    border-radius: 3px;
+}
+.progress > div{
+    height: inherit;
+    background: white;
+    border-radius: inherit;
+}
+.ulList{
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+.mainContent{
+    color: #000;
+    height: 100%;
+    width: 140mm;
+    position: relative;
+    word-break: break-word;
+    font-weight: normal;
+    text-decoration: none;
+    background: #fff;
+    padding: 4mm 5mm;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+.mainHeader{
+    margin: 20px 0px;
+    color: #054276;
+    word-break: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    margin-left: 10px;
+    margin-right: 6px;
+    width: 73%;
+    border-bottom: 1px solid #054276;
+    height: 2px;
+    border-top: none;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: top;
+}
+.date-div{
+    font-size: 10pt;
+    width: 25%;
+}
+.post{
+    width: 75%;
+}
+
+h1{
+    word-break: inherit;
+    font-weight: inherit;  
+}
+h2{
+    word-break: inherit;
+    font-weight: inherit;
+}
+h3{
+    word-break: inherit;
+    font-weight: inherit;
+}
+h4{
+    word-break: inherit;
+    font-weight: inherit;
+}
+h5{
+    word-break: inherit;
+    font-weight: inherit;
+}
